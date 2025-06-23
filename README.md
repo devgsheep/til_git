@@ -296,6 +296,9 @@ git log --oneline 엔터
 
 ```bash
 git rebase -i 해시값^ 엔터
+
+# 아래도 시도해보기
+git rebase -i --root
 ```
 
 예제)
@@ -351,4 +354,12 @@ git rebase --continue
 
 ### 3.1. 바로 수정 후 바로 push 하기
 
+```bash
+git push origin 브랜치명 --force
+```
+
 ### 3.2. 이전 커밋 수정 후 push 하기
+
+```bash
+git push origin 브랜치명 --force
+```
